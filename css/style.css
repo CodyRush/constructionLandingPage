@@ -4,6 +4,11 @@ body {
     font-family: 'Fredoka One', cursive;
 }
 
+.icon {
+    width: 1.7rem;
+    margin: 1rem;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
