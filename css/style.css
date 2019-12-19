@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(0deg, rgba(249, 124, 0, 0.35), rgba(249, 124, 0, 0.35)), url('../img/brisbane-skyline.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.heading {
+    padding: 1rem 0 0;
+    width: 35rem;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1.3rem;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35rem;
+    padding: 1.5rem 0;
+}
+
+.vertical-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-lg {
+    font-size: 4rem;
+}
